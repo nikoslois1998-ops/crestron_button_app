@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crestron Button Panel</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/@crestron/ch5-theme@latest/dist/ch5-theme.min.css">
+  <script src="https://unpkg.com/@crestron/ch5-crcomlib@latest/build_bundles/umd/cr-com-lib.js"></script>
+  <script src="https://unpkg.com/@crestron/ch5-webxpanel@latest/dist/ch5-webxpanel.min.js"></script>
+  <script src="https://unpkg.com/@crestron/ch5-web-components@latest/dist/ch5-web-components.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="button-panel">
+      <ch5-button
+        id="btn11"
+        class="control-btn"
+        data-join="11"
+        label="11"
+        aria-label="Trigger digital join 11"
+        debug="true">
+      </ch5-button>
+      <ch5-button
+        id="btn12"
+        class="control-btn"
+        data-join="12"
+        label="12"
+        aria-label="Trigger digital join 12"
+        debug="true">
+      </ch5-button>
+      <ch5-button
+        id="btn13"
+        class="control-btn"
+        data-join="13"
+        label="13"
+        aria-label="Trigger digital join 13"
+        debug="true">
+      </ch5-button>
+      <ch5-button
+        id="btn14"
+        class="control-btn"
+        data-join="14"
+        label="14"
+        aria-label="Trigger digital join 14"
+        debug="true">
+      </ch5-button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
