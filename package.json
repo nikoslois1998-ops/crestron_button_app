@@ -1,0 +1,22 @@
+{
+  "name": "crestron_button_app",
+  "version": "1.0.0",
+  "description": "Crestron",
+  "main": "app/index.html",
+  "scripts": {
+    "start": "http-server app -p 3000 -o",
+    "dev": "http-server app -p 3000"
+  },
+  "keywords": [
+    "crestron",
+    "ch5",
+    "html5",
+    "ui"
+  ],
+  "author": "Nikos Lois",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
